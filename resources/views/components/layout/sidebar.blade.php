@@ -88,6 +88,19 @@
         </li>
       </ul>
     </li>
+    <li class="menu-item">
+      <a href="{{ route('category.index') }}" class="menu-link menu-toggle">
+        <i class="menu-icon tf-icons bx bx-lock-open-alt"></i>
+        <div data-i18n="Authentications">Kategori</div>
+      </a>
+      <ul class="menu-sub">
+        <li class="menu-item">
+          <a href="{{ route('category.create') }}" class="menu-link">
+            <div data-i18n="Basic">Tambah Data</div>
+          </a>
+        </li>
+      </ul>
+    </li>
     <!-- Transaksi -->
     <li class="menu-header small text-uppercase">
       <span class="menu-header-text">Transaksi</span>
